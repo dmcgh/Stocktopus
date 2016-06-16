@@ -1,5 +1,5 @@
 {
-  "name": "bankmanager",
+  "name": "stockopus",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jayam18/bankManager.git"
+    "url": "git+https://github.com/jayam18/Stockopus.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jayam18/bankManager/issues"
+    "url": "https://github.com/jayam18/Stockopus/issues"
   },
-  "homepage": "https://github.com/jayam18/bankManager#readme",
+  "homepage": "https://github.com/jayam18/Stockopus#readme",
   "devDependencies": {
     "chai": "^3.5.0",
     "chokidar-cli": "^1.2.0",
@@ -28,10 +28,11 @@
     "eslint-plugin-import": "^1.8.1",
     "eslint-plugin-jsx-a11y": "^1.4.2",
     "eslint-plugin-react": "^5.1.1",
-    "mocha": "^2.5.3",
-    "request": "^2.72.0"
+    "mocha": "^2.5.3"
+
   },
   "dependencies": {
-    "uuid": "^2.0.2"
+    "uuid": "^2.0.2",
+    "request": "^2.72.0"
   }
 }
