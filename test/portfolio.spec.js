@@ -1,11 +1,3 @@
-// add protfolio
-// add stock
-// add stock
-// check length
-// check value
-// sell stocks
-// check value again
-
 /* eslint-disable func-names, prefer-arrow-callback*/
 
 const expect = require('chai').expect;

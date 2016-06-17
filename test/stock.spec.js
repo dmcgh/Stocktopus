@@ -26,7 +26,7 @@ describe('Stock', () => {
       expect(s1.symbol).to.equal('ALL');
     });
   });
-  describe('purchase', function () {
+  describe('#purchase', function () {
     it('should purchase stocks', function (done) {
       const s1 = new Stock('all');
       clock.tick(150);
@@ -41,7 +41,7 @@ describe('Stock', () => {
       });
     });
   });
-  describe('sell', function () {
+  describe('#sell', function () {
     it('should return cash value of stock sold', function (done) {
       const s1 = new Stock('ALL');
       s1.shares = 60;
@@ -62,6 +62,14 @@ describe('Stock', () => {
         expect(totalcashVal).to.be.an('undefined');
         done();
       });
+    });
+  });
+  describe('.quote', function () {
+    it('should gives back quote of a stock', function (done) {
+      expect(Stock.quote('all', function (err, quote) {
+        expect(quote).to.equal(100);
+        done();
+      }));
     });
   });
 });
